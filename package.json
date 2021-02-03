@@ -42,5 +42,9 @@
   ],
   "engines": {
     "node": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TokisakiYuu/generator-nkc-micro-service"
   }
 }
