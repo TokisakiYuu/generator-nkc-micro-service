@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/dependencies.ts"],"names":["production","development"],"mappings":";;;;;;AAEO,MAAMA,UAAsB,GAAG,CACpC,QADoC,CAA/B;;AAIA,MAAMC,WAAuB,GAAG,EAAhC","sourcesContent":["type PackName = string;\r\n\r\nexport const production: PackName[] = [\r\n  \"lodash\"\r\n];\r\n\r\nexport const development: PackName[] = [\r\n\r\n];\r\n"],"file":"dependencies.js"}
