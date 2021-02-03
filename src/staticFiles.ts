@@ -6,7 +6,7 @@ const staticFiles = [
   ".env.example",
   ".eslintignore",
   ".eslintrc",
-  ".gitignore",
+  ".gitignore.template",
   "babel.config.js",
   "jest.config.js",
   "LICENSE",

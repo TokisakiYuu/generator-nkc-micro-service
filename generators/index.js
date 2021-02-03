@@ -39,10 +39,10 @@ class AppGenerator extends _yeomanGenerator.default {
       }
     }]);
     const projectName = answer.projectName;
-    this.fs.copyTpl(this.templatePath("package.json"), this.destinationPath("package.json"), {
+    this.fs.copyTpl(this.templatePath("package.json.template"), this.destinationPath("package.json"), {
       projectName: projectName
     });
-    this.fs.copyTpl(this.templatePath("package-lock.json"), this.destinationPath("package-lock.json"), {
+    this.fs.copyTpl(this.templatePath("package-lock.json.template"), this.destinationPath("package-lock.json"), {
       projectName: projectName
     });
   }
