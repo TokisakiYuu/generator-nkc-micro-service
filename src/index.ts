@@ -15,6 +15,10 @@ export default class AppGenerator extends Generator {
         this.destinationPath(file),
       );
     }
+    this.fs.copyTpl(
+      this.templatePath(".gitignore.template"),
+      this.destinationPath(".gitignore")
+    );
   }
 
   async pkgJson(): Promise<void> {
