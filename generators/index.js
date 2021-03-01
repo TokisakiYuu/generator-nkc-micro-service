@@ -23,6 +23,8 @@ class AppGenerator extends _yeomanGenerator.default {
     for (const file of _staticFiles.default) {
       this.fs.copy(this.templatePath(file), this.destinationPath(file));
     }
+
+    this.fs.copyTpl(this.templatePath(".gitignore.template"), this.destinationPath(".gitignore"));
   }
 
   async pkgJson() {
